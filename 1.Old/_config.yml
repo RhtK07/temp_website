@@ -1,5 +1,14 @@
-# Hi, this is the config file that will going to control how you site will look
-# from changing the theme to other things, just do the changes here
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
@@ -7,20 +16,20 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : # "Title"
-title_separator          : #"-"
-subtitle                 : #"One piece is best!" # site tagline that appears below site title in masthead
-name                     : #"Rohit K"
-description              : #"An amazing website ?! Lets see. I will try my best."
+title                    : "Testing Site"
+title_separator          : "-"
+subtitle                 : "One piece is best!" # site tagline that appears below site title in masthead
+name                     : "Rohit K"
+description              : "An amazing website ?! Lets see. I will try my best."
 url                      : https://rhtk07.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : https://rhtk07.github.io/
 teaser                   : "/assets/images/37.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : #"/assets/images/profile_pic_1.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-#permalink:   /:categories/:title/
+logo                     : "/assets/images/profile_pic_1.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+permalink:   /:categories/:title/
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
-words_per_minute         : #200
+words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -91,13 +100,13 @@ author:
   school: Indian Institue of Sciences
   place: Bangalore, India.
   avatar           :  "/assets/images/profile_pic_1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Graduate student<br/>Language Technologies Institute, School of Computer Science&#13;&#10;Carnegie Mellon University&#13;&#10;Pittsburgh, PA"
+  bio              : "I am an **amazing** person ???!!! Really"
   location         : "Delhi"
   email            : "rohitk@iisc.ac.in"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "rohitk@iisc.ac.in"
+      # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -109,7 +118,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://rhtk07.github.io/"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -263,15 +272,15 @@ compress_html:
 
 
 # Defaults
-#defaults:
+defaults:
   # _posts
-  #  - scope:
-  #   path: ""
-  #    type: posts
-  #  values:
-  #    layout: single
-  #    author_profile: true
-  #    read_time: true
-  #    comments: # true
-  #    share: true
-  #    related: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
