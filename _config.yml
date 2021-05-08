@@ -94,10 +94,18 @@ author:
   bio              : "Graduate student<br/>Language Technologies Institute, School of Computer Science&#13;&#10;Carnegie Mellon University&#13;&#10;Pittsburgh, PA"
   location         : "Delhi"
   email            : "rohitk@iisc.ac.in"
+  linkedin: www.linkedin.com/in/rohit-k07 #username
+  google:
+    scholar: https://scholar.google.com/citations?user=4PulMD4AAAAJ&hl=en
+    plus:  #username
+    analytics: UA-57438847-4
+    verify:
+    ad-client:
+    ad-slot:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "rohitk@iisc.ac.in"
+      url: #"rohitk@iisc.ac.in"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
